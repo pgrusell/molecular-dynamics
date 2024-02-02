@@ -1,4 +1,11 @@
 # molecular-dynamics
-The following code maight be used in order to perform a full simulation on molecular dynamics (MD) of a set of 500 particles on a cubic box of 10 units side with periodic bondary conditions. The set of programs are able to build the initial configuration of the system and predict its evolution for any arbitrary time due to the effect of a Lennard-Jonnes potential, keeping track of the coordinates, velocities and accelerations of every particle. Using this information thermodynamic variables are calculated. A detailed expanation about the physics and analysis techniques are presented in the file 
+The following code may be used to perform a full simulation of molecular dynamics (MD) for a set of 500 particles in a cubic box with a side length of 10 units, using periodic boundary conditions. The set of programs is capable of constructing the initial configuration of the system and predicting its evolution for any arbitrary time, influenced by a Lennard-Jones potential. The code keeps track of the coordinates, velocities, and accelerations of every particle. Using this information, thermodynamic variables are calculated. A detailed explanation of the physics and analysis techniques is provided in the [Explicación](explicación.pdf).
 
-- main.f90: It's 
+## Installation and using of the code
+
+### Prerequisites
+The different files are mainly written in Fortran and for the compilation and 
+
+
+
+
