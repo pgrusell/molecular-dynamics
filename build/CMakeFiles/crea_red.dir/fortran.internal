@@ -1,4 +1,0 @@
-# The fortran modules provided by this target.
-provides
- def_precision.mod
- variables_comunes.mod
