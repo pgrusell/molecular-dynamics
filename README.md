@@ -7,10 +7,37 @@ The different files are mainly written in Fortran, and for compilation, CMake is
 
 ### Download the repository
 
-The simplest way of downloading the code is using git, 
+The simplest way to download the code is using git, 
 
+```git clone https://github.com/pgrusell/molecular-dynamics.git```
 
-``````
+but, it can also be donwloaded directly as a ```.dot``` file.
+
+### Installation, compilation and execution
+
+As usually with CMake compilations, the steps are.
+
+```
+from molecular-dynamics directory
+$ mkdir build
+$ cd build
+$ cmake ..
+$ make
+```
+
+this process will generate in the build directory an executable file named ```crea_red```. To simplify and automate this, the file ```inicializacion.sh```, on UNIX systems, has been created. After grating permision with, 
+
+```$ chmod +x inicializacion.sh```
+
+run
+
+```$ ./inicializacion.sh```
+
+This script compiles and runs the programs, generating a new folder named  ```resultados```, which will contain the coordinates, energies, and more.
+
+## Modification of the simulation
+
+The simulation data source is the file ```configuracion.txt``` wich contains the size of the box, the constant energy of the system and the number of iterations of the simulation. 
 
 
 
