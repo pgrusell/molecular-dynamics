@@ -3,8 +3,15 @@ The following code may be used to perform a full simulation of molecular dynamic
 
 ## Installation and using of the code
 
-### Prerequisites
-The different files are mainly written in Fortran and for the compilation and 
+The different files are mainly written in Fortran, and for compilation, CMake is used, so both are needed. Moreover, the installation guide is designed for a UNIX system, but in the end, it will be shown how to use this code on a Windows system
+
+### Download the repository
+
+The simplest way of downloading the code is using git, 
+
+
+``````
+
 
 
 
