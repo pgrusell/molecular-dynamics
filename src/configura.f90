@@ -6,7 +6,7 @@ subroutine configura()
 
 !   Cargamos los valores de las variables del archivo
     open(10, file='../src/configuracion.txt', status='old', action='read')
-	read(10, *) L, etot_
+	read(10, *) L, etot_, Npasos
     close(10)
 
 !   Calculamos el resto de variables

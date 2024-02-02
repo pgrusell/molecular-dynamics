@@ -7,7 +7,7 @@ module variables_comunes
     integer (kind=entero),parameter:: N=500
     real (kind=doblep):: L, V, L_inv, etot_
     real (kind=doblep), parameter:: pi=3.14159265358970
-    integer (kind=entero):: k
+    integer (kind=entero):: k, Npasos
     real (kind=doblep):: a, rc, rc2, rc3, rc6, deltat, ecorr, depotr_corr, ddepotrr_corr
 
 !   ===================================================================================================================
@@ -17,7 +17,7 @@ module variables_comunes
 !   L: Lado de la caja. En nuestro caso 10 en unidades reducidas.
 !   V: Volumen del cubo.
 !   L_inv: 1/L, se utiliza para calculos intermedios.
-!   etot_: Energia total que queremos que tenga nuestro sistema. En genetal es distinta de etot=ecin+epot.
+!   etot_: Energia total que queremos que tenga nuestro sistema. En general es distinta de etot=ecin+epot.
 !   pi: Valor tipico de pi, empleado para calculos intermedios.
 !   N: Numero total de particulas. En nuestro caso 500 particulas.
 !   k: Numero de repeticiones de la celda unidad para construir la caja completa. Se calcula como

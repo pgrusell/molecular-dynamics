@@ -14,8 +14,8 @@
 
         real(kind=doblep):: mi_random, b, epot, ecin, etot, depotr, ddepotrr
         real(kind=doblep):: ecin_, factor, sx, sy, sz, tiempo, pref
-        character(40):: date, time, zone, fname1, fname2,fname3
-        integer(kind=entero):: i, j, m, p1, p2, iduma, Npasos
+        character(40):: date, time, zone, fname1, fname2, fname3
+        integer(kind=entero):: i, j, m, p1, p2, iduma
         real (kind=doblep), dimension(N):: rx, ry, rz, vx, vy, vz, ax, ay, az
         integer, dimension(8)::values
 
@@ -67,7 +67,6 @@
         rc3=rc2*rc
         rc6=rc3*rc3
         b=0.25*a
-        Npasos=5000
         deltat=1.d-04
         pref=N*N/V*16*pi/(rc3)
 
